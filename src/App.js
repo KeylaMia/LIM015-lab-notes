@@ -22,12 +22,19 @@ function App() {
   );
 }
 */
+
+/*const name = 'Keyla Jimenez Gallegos';
+const element = <h1>Hello, {name}</h1>;
+
 function App() {
+  
   return (
     <div className="App">
       <h1> Hola mundo </h1>
       <h3> me gusta codear </h3>
+      element, 
     </div>
   );
 }
 export default App;
+*/
