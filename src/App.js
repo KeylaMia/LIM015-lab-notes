@@ -1,40 +1,18 @@
-//import logo from './logo.svg';
+import { Component } from 'react';
 import './App.css';
-/*
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
-*/
+import LogIn from './components/logInComponents/logIn';
+//import Register from './components/registerComponents/register';
+//import Navigator from './components/navigator';
 
-/*const name = 'Keyla Jimenez Gallegos';
-const element = <h1>Hello, {name}</h1>;
 
-function App() {
-  
-  return (
-    <div className="App">
-      <h1> Hola mundo </h1>
-      <h3> me gusta codear </h3>
-      element, 
-    </div>
-  );
+class App extends Component{
+  render(){
+    return (
+      <div className="App">
+      <LogIn/>
+      </div>
+    );
+  } 
 }
+
 export default App;
-*/
