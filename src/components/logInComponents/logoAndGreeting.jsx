@@ -1,14 +1,17 @@
-import React, {Component} from 'react';
+import React from 'react';
 import Logo from '../../assets/logo.png';
+import './logInAndRegister.css';
 
-
-class LogoAndGreeting extends Component {
-    render(){
-        return(
-            <div className='logoandGreeting'>
-            <img src= {Logo} alt="logo" />
+function LogoAndGreeting () {
+    return(
+        <div className='logoAndGreeting'>
+            <div className='logo'>
+                <img src= {Logo} alt='logo' />
             </div>
-        )
-    }
+            <div className='greeting'>
+                <h1>Bienvenida</h1>
+            </div>
+        </div>
+    )
 }
 export default LogoAndGreeting;

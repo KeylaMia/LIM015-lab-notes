@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#root{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+
+.logoAndGreeting{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 2.5rem;
+}
+
+.logo {
+    padding-bottom: 2rem;
+}
+
+
+img{
+    position: relative;
+    width: 10rem;
+}
+
+.greeting{
+    font-family: Sansation;
+    font-weight: bold;
+    line-height: 54px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #E84A5F;
+}
+
+label{
+    width: 307px;
+    height: 40px;
+    left: 148px;
+    top: 628px;
+    font-family: Sansation;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 40px;
+    color: #E84A5F;
+}
+
+input{
+    width: 350px;
+    height: 30px;
+    left: 148px;
+    top: 715px;
+    border: 2px solid #F178B6;
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2rem;
+}
+
+input{
+    margin-bottom: 1rem;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-family: sensation;
+    font-weight: bold;
+    list-style: none;
+}
+
+.btn{
+    background-color: #E84A5F;
+    border-radius: 30px;
+    border-color: #E84A5F;
+    font-size: 18px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+}
+
+p{
+    display: flex;
+    text-align: center;
+    font-family: sensation;
+    font-weight: bold;
+}
+
+.linkRegister{
+    font-family: sensation;
+    font-weight: bold;
+    color: #E84A5F;
+    margin-left: 5px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+/*
+@media(min-width: 1400px) {
+    .iOne {
+        height: 100vh;
+        padding: 40px;
+    }
+    .positionLogin {
+        margin: 12% 0 12% 65%;
+    }
+}
+@media (max-width: 1400px) {
+    .divLoginForm {
+        max-width: 400px;
+    }
+}
+@media(min-width: 1280px) {
+    .positionLogin {
+        margin: 6% 0 6% 65%;
+    }
+}
+@media(min-width: 900px) {
+    .imgLogo {
+        width: 250px;
+        height: 145px;
+    }
+}
+@media(max-width: 780px) {
+    .positionLogin {
+        margin: 25% 0 25% 50%;
+    }
+}
+@media (max-width: 540px) {
+    .positionLogin {
+        margin: 1%;
+    }
+    .divCabecera h2 {
+        font-size: 30px;
+    }
+}
+*/
